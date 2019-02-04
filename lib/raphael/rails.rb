@@ -2,7 +2,7 @@ require "raphael/rails/version"
 
 module Raphael
   module Rails
-    class Error < StandardError; end
-    # Your code goes here...
+    class Engine < ::Rails::Engine
+    end
   end
 end
